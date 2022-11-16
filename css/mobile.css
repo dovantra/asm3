@@ -1,0 +1,141 @@
+@media screen and (max-width: 600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu2 {
+    display: none;
+  }
+  .menu1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .cot2 {
+    display: grid;
+
+    background-color: #fbfbfc;
+  }
+  .cot11 {
+    width: 600px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: auto;
+    background-color: #ebe9e9;
+
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .cot12 {
+    width: 600px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #dedede;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .cottt {
+    margin-top: 10px;
+    display: grid;
+    background-color: #fbfbfc;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    row-gap: 10px;
+
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .cottt1 {
+    display: grid;
+
+    height: 500px;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid grey;
+    grid-template-columns: 60% 40%;
+    row-gap: 20px;
+  }
+  .cottrongcot {
+    height: 10px;
+    padding: 25% 25% 25% 25%;
+  }
+  .giaithuong {
+    background-color: rgb(241, 239, 237);
+    display: grid;
+  }
+  .giaithuong1 {
+    position: relative;
+    height: 180px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-bottom: 2px solid black;
+  }
+
+  .giaithuong2 {
+    height: 180px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-bottom: 2px solid black;
+  }
+  .imagegt {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 180px;
+  }
+  .chu {
+    padding-left: 200px;
+  }
+  .duan {
+    height: 500px;
+    display: grid;
+
+    row-gap: 20px;
+    padding-left: 25%;
+  }
+  .cotduan {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid black;
+    width: 300px;
+  }
+  .imgduan {
+    width: 100%;
+    height: 200px;
+  }
+  .dongchu {
+    text-align: left;
+    border-bottom: 1px solid black;
+  }
+  .icon {
+    border-bottom: 1px solid black;
+  }
+
+  .c1 {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    column-gap: 10%;
+  }
+  #c2 {
+    border-bottom: 1px solid black;
+  }
+  .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #d8dada;
+    height: 100px;
+    padding-bottom: 1px;
+  }
+  #bo {
+    padding-top: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #199cdb;
+  }
+  .anhdaidien {
+    display: none;
+  }
+}

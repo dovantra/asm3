@@ -1,0 +1,27 @@
+.project {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  border: 5px solid blue;
+}
+.goal {
+  border: 5px solid blue;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.team {
+  border: 5px solid blue;
+}
+.timeline {
+  border: 5px solid blue;
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.scopes {
+  border: 5px solid blue;
+}
+.primary {
+  border: 5px solid blue;
+}
+.bi-flag-fill {
+  width: 20px;
+}
